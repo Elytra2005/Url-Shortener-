@@ -1,2 +1,3 @@
 # Url-Shortener-
-Url shortener using python flask, json, and pyshortener library
+Basic Url shortener using python flask, json, and pyshortener library
+Edit this to your liking 
