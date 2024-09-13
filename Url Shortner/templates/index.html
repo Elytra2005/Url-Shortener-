@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/main.css" type="text/css" />
+    <title>Url Shortner</title>
+</head>
+<body>
+
+    <section id="sectionone">
+        <form method="post">
+            <fieldset>
+                <h1>Enter Your Url</h1>
+            </fieldset>
+
+            <feildset>
+                <input type="text" class="text-input" name="furl" value="{{old_url}}" placeholder="Enter url you want to short" size="50" />
+            </feildset>
+
+            <fieldset>
+                <input name="generated_url" value="{{new_url}}" class="text-input" placeholder="Your Shortened Url" size="50"></input>
+            </fieldset>
+
+            <feildset>
+                <input type="submit" name="fhiddensubmit" style="position: absolute; left: -9999px"/> <!-- hides submit button -->
+            </feildset>
+        </form>
+    </section>
+
+</body>
+</html>
